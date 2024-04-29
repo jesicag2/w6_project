@@ -1,0 +1,110 @@
+/* Fonts */
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+}
+
+h2 {
+    font-family: Tahoma, sans-serif;
+    font-size: 30px;
+}
+
+h3 {
+    font-family: Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+hr {
+    border-color: #efc8c9; /* Set the border color to red */
+    border-style: solid; /* Ensure the border style is solid */
+}
+
+.sub-header {
+    font-family: Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+p, li {
+    font-family: Georgia, serif;
+    font-size: 18px;
+}
+
+/* Body */
+body {
+    color: #4b4734;
+    background-color: #f7f5ec;
+}
+
+/* Header */
+header {
+    background-color: #efc8c9;
+    color:#763a3a;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #a75050;
+    color: #efc8c9;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: "copyright social";
+}
+
+.footer .social a img {
+    width: 2px; /* Adjust the width to your preference */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Adjust spacing between icons if needed */
+}
+
+/* Navigation */
+nav {
+background-color: #9bc6d8;
+border-radius: 10px;
+}
+
+nav ul {
+list-style-type: none;
+padding: 10px;
+display: flex;
+justify-content: space-around;
+}
+
+nav a {
+color: #233238;
+text-decoration: none;
+}
+
+nav a:hover {
+color: #f7f5ec;
+font-size: 20px;
+}
+
+
+main {
+    padding: 20px;
+    margin: 20px;
+}
+
+main {
+    border: 2px solid #a75050;
+    border-radius: 10px;
+}  
+
+/* Index */
+.profile-picture {
+    border-radius: 50%;
+    border: 1px solid #a75050;
+    width: 200px;
+    margin: 0 auto 20px; /* Center the image and add some space below */
+}
+.home2 {
+    text-align: center;
+}
